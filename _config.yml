@@ -1,0 +1,18 @@
+future: true
+permalink: /:title/
+url: http://yjhjstz.github.io
+name: yjhjstz
+author: yjhjstz
+qq: 
+email: yjhjstz@gmail.com
+duoshuo: 
+beian: 
+cnzz: 
+weibo: yangjianghua
+github: yjhjstz
+pygments: true
+paginate: 20
+truncate: true
+about: "Jianghua Yang"
+markdown: kramdown
+highlighter: rouge
