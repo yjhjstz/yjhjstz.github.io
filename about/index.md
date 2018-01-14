@@ -17,28 +17,115 @@ comments: no
 
 ---
 
-### 经历
 
-> 2011.07 ~ 2013.07               DHFS， 用户态文件系统DHFS的开发
+## 个人信息
+
+ - 本科/南京邮电大学
+ - 工作年限：7年
+ - 微博：[@yangjianghua](http://weibo.com/yangjianghua) 
+ - Github: https://github.com/yjhjstz 
+ - 期望职位：系统架构师，技术专家
+ - 期望城市：杭州
+
+---
+
+
+# 工作经历
+
+
+## 阿里巴巴 （ 2014/3 ~）
+
+---
+
+### MongoDB 云服务
+- 就职于阿里云-飞天八部-阿里云数据库团队
+- MongoDB 内核核心开发, 涉及运维,多存储引擎（Wiredtiger, Rocksdb, Terarkdb）,多机房容灾, 副本集到Sharding版本演进等；
+- 性能优化，QPS 提升67%，Latency下降90%，解决官方版本在连接数上的资源消耗问题;
+- 引入git和持续集成系统, 完成自动化构建测试，提升团队效率。
+
+---
+
+### Node.js 云服务
+- 负责 [alinode](https://alinode.aliyun.com) 网站后台设计架构开发
+- 通过高可用的 Agent 系统构建数据传输和控制链路，实现了云端监控，智能分析
+- 解决开源 Node.js 版本在性能，内存泄露，监控上的痛点
+- 服务集团90%+的 node 应用，6000+实例部署，经历3次双11考验。
+
+---
+
+### zprofile 内部云服务
+- 就职于阿里云事业群-飞天八部-技术创新
+- 负责 V8 虚拟机堆快照分析和 GC 在线分析
+- 和 JVM 团队一起共建了支持 java 和 javascript 的分析服务，帮助各个 BU 解决内存泄露和 GC pause 造成的性能问题。
+
+
+---
+
+
  
-> 2014.03 ~ 2016.07               Node.js , V8 开发
+## 浙江大华 （ 2010年7月 ~ 2014年3月 ）
 
-> 2016.07 ~ Now                   MongoDB 分布式数据库开发
+---
+### 职责
+
+- Team Leader (5人)
+- 存储产品线系统架构师
+
+---
+
+### 存储系统开发
+在Linux下从事文件系统的开发,实现视频文件的快速查找和并发写入等特性。
+
+开发的用户态文件系统特性：
+1、并发写入支持；
+2、文件快速检索；
+3、文件自动循环覆盖；
+4、坏道处理机制。
+
+---
+
+### NVR 存储产品
+- 基于x64平台，最高可以接入128路前端IPC。性能在市场上处于领先地位；
+- 负责系统模块化，公共组件设计，包括 Infra, Storage, Manager，并推进开发规范化，文档化；
+- 负责解决、指导项目中遇到的技术难题、参与技术选型，制定大华三代网络通信协议；
+- 拥有《NVR6000软件著作权》。
+
+---
 
 
-----
+## 开源项目
+参与开源项目 Google V8, Node.js, libuv, MongoDB 等。
 
-### 联系方式：
+---
 
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
-网站：[{{ site.name }}]({{ site.url }})
+## 技术文章
+- 开源书：[深入理解Node.js：核心思想与源码分析]( https://yjhjstz.gitbooks.io/deep-into-node )
+-  [Node.js相关技术博客](https://alinode.aliyun.com)
+- [数据库相关博客](http://mysql.taobao.org/monthly/2017/01/)
 
-邮箱：[{{ site.email }}](mailto:{{ site.email }})
+---
 
-GitHub：[http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+## 外部演讲
+ - 2015 MPD 工作坊——南京站：《基于node运行时的应用性能管理解决方案》
+ - 2017 云栖大会深圳峰会--物联网大数据专场：《基于MongoDB与Node.js构建物联网系统》
 
+---
 
-weibo:    @yangjianghua
+## 专利
+- 《基于V8一种内存可控的并行垃圾回收标记方法》 专利受理号为：cn 201610187840.2
+
+- 《基于 Coredump 文件的一种定向分析内存的方法》
+ 专利受理号为：cn 201710322576.3
+ 
+---
+
+## 技能清单
+以下均为我经常使用的技能, 排在前面表示更熟悉，主要技术领域在存储，虚拟机，Nosql。
+
+- 开发语言：C/C++/Node.js/Java/Shell/Python
+- 调试调优：gdb/oprofile/perf/hopper
+- 数据库相关：MongoDB/MySQL
+- 版本管理、持续集成：svn/git/jenkins/
+- 开发平台：Linux/Mac/Raspberry Pi
+
 
