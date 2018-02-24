@@ -1,7 +1,7 @@
 ---
 title: 关于
 layout: page
-comments: no
+comments: resume
 ---
 
 ---
@@ -54,7 +54,7 @@ comments: no
 ---
 
 ### zprofile 内部云服务
-- 就职于阿里云事业群-飞天八部-技术创新
+- 就职于阿里云-飞天八部-技术创新
 - 负责 V8 虚拟机堆快照分析和 GC 在线分析
 - 和 JVM 团队一起共建了支持 java 和 javascript 的分析服务，帮助各个 BU 解决内存泄露和 GC pause 造成的性能问题。
 
@@ -94,7 +94,7 @@ comments: no
 
 
 ## 开源项目
-参与开源项目 Google V8, Node.js, libuv, MongoDB 等。
+参与开源项目 Google V8,  libuv, MongoDB 等。
 
 ---
 
