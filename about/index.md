@@ -10,7 +10,7 @@ comments: resume
 
 {{ site.about }}
 
-> Linux 后端工程师，MongoDB,  Node.js , 虚拟机
+> Linux 后端工程师，MongoDB,  Node.js , 机器学习
 
 > 技术Geeker
 
