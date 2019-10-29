@@ -104,7 +104,7 @@ comments: resume
 
 
 ### 开源项目
-参与开源项目 Google V8,  libuv, MongoDB 等。
+参与开源项目 Google V8,  libuv, MongoDB, Postgres 等。
 
 ---
 
