@@ -10,7 +10,7 @@ comments: resume
 
 {{ site.about }}
 
-> Linux 后端工程师，MongoDB,  Node.js , 机器学习
+> Linux 后端工程师，MongoDB,  Postgres , 机器学习
 
 > 技术Geeker
 
@@ -19,7 +19,6 @@ comments: resume
 
 
 ### 个人信息
-
  - 本科/南京邮电大学
  - 工作年限：10年
  - 微博：[@yangjianghua](http://weibo.com/yangjianghua) 
@@ -40,7 +39,6 @@ comments: resume
    * 实现 PostgreSQL 副本集和分片集群容器化部署
      - 基于开源patroni与kubernetes集成，实现高可用的HA架构部署；
      - 基于开源 citus 开发实现企业版特性：包括扩容重新平衡分片，查看统计信息。
-
 
 - 负责异构平台深度学习弹性推理的架构和开发实现，管理团队4人， 在滴滴云上输出。
   * 2018.3月初开始打造鲁班高性能弹性推理服务(DDL-Serving)，填补市面上多种深度学习模型部署的空白，提供了高可用，低延时的解决方案。目前支撑了200多个业务方，近400 台GPU机器。机器使用数上是使用开源TF-Serving的1/2，节省了一半以上的成本并提高了稳定性。支撑2018年公司All in 安全的多个深度学习模型使用上线。以上DDL-Serving在2018年度申请专利2篇，受理2篇。
