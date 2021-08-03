@@ -21,7 +21,7 @@ comments: resume
 ### 个人信息
  - 本科/南京邮电大学
  - 工作年限：10年
- - 微博：[@yangjianghua](http://weibo.com/yangjianghua) 
+ - 邮箱：yjhjstz@163.com
  - Github: https://github.com/yjhjstz 
  - 期望职位：系统架构师，高级技术专家
  - 期望城市：杭州
@@ -36,6 +36,7 @@ comments: resume
 ### 滴滴出行-基础平台-机器学习云平台
 - 负责 OLAP 数据库
    * 基于 Postgres 实现，提供亿级海量分布式相似检索服务方案(融合关系查询)，支持内部人脸比对，安防项目，智能客服，商品推荐落地。
+   * Postgresql 列存储开发
    * 实现 PostgreSQL 副本集和分片集群容器化部署
      - 基于开源patroni与kubernetes集成，实现高可用的HA架构部署；
      - 基于开源 citus 开发实现企业版特性：包括扩容重新平衡分片，查看统计信息。
@@ -58,7 +59,7 @@ comments: resume
 ---
 
 #### Node.js 云服务
-- 负责 [alinode](https://alinode.aliyun.com) 网站后台设计架构开发
+- 负责 [alinode](https://www.aliyun.com/product/nodejs?spm=5176.19720258.J_8058803260.423.e9392c4az696dZ) 网站后台设计架构开发
 - 通过高可用的 Agent 系统构建数据传输和控制链路，实现了云端监控，智能分析
 - 解决开源 Node.js 版本在性能，内存泄露，监控上的痛点
 - 服务集团90%+的 node 应用，6000+实例部署，经历3次双11考验。
@@ -138,6 +139,6 @@ comments: resume
 - 调试调优：gdb/oprofile/perf/hopper
 - 数据库相关：MongoDB/Postgresql
 - 版本管理、持续集成：svn/git/jenkins/
-- 开发平台：Linux/Mac/Raspberry Pi
+- 开发平台：Linux/Mac/Arm
 
 
