@@ -35,10 +35,10 @@ comments: resume
 ---
 ### 滴滴出行-基础平台-机器学习云平台
 - 负责 OLAP 数据库
-   * 基于 Postgres 实现，提供亿级海量分布式相似检索服务方案(融合关系查询)，支持内部人脸比对，安防项目，智能客服，智慧交通, NLP比对,商品推荐落地，。
+   * 基于 Postgres 实现，提供亿级海量分布式相似检索服务方案(融合关系查询)，支持内部人脸比对，安防项目，智能客服，智慧交通, NLP比对,商品推荐落地。
    * Postgresql 列存储开发
-   		* 列式存储压缩
-		* 条件下推,冷热分离
+     - 列式存储压缩
+     - 条件下推,冷热分离
    * 实现 PostgreSQL 副本集和分片集群容器化部署
      - 基于开源patroni与kubernetes集成，实现高可用的HA架构部署；
      - 基于开源 citus 开发实现企业版特性：包括扩容重新平衡分片，查看统计信息。
@@ -108,8 +108,9 @@ comments: resume
 ---
 
 
-### 开源项目
-参与开源项目 Google V8,  libuv, MongoDB, Postgres 等。
+### 开源项目&个人项目
+- 参与开源项目 Google V8,  libuv, MongoDB, Postgres 等。
+- 个人分布式图数据库POC：https://github.com/yjhjstz/postgres-xl-docker
 
 ---
 
