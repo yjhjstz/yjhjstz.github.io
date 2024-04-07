@@ -20,7 +20,7 @@ comments: resume
 
 ### 个人信息
  - 本科/南京邮电大学, MCS@IIT 在读
- - 工作年限：11年
+ - 工作年限：12年
  - 邮箱：yjhjstz@163.com
  - Github: https://github.com/yjhjstz 
  - 期望职位：系统架构师，高级技术专家
@@ -31,15 +31,15 @@ comments: resume
 
 
 ## 工作经历
-### 滴滴出行 (2018/3 ~)
+### 北京酷克数据 (2022/4 ~)
+- OLAP 数据库, 基于 GPDB6x 开发存储和计算分离的MPP数据库 
+    - 开源版本实现基于Postgres14.4的内核升级，并行计算，增量物化视图特性。
+    - 云版本实现存算分离，稀疏索引等特性。
+
+### 滴滴出行 (2018/3 ~ 2022/4)
 ---
 ### 滴滴出行-基础平台-机器学习云平台
 - 负责 OLAP 数据库
-   * 基于 Postgres-XL 实现多模态数据存储查询，包括以下：
-     - 补齐分布式图数据库的功能，实现*OpenCypher* 语法支持，多跳邻居查询，最短路径；
-     - 关系，地理位置和向量，图关系融合查询
-     - 落地无人车，地图，设备风控等业务
-     
    * 基于 Postgres 实现，提供亿级海量分布式相似检索服务方案
        - 支持高维度空间索引（HNSW，IVF），融合关系查询；
        - 支持内部人脸比对，安防项目，智能客服，智慧交通, NLP比对, 商品推荐落地。
@@ -114,7 +114,9 @@ comments: resume
 
 ### 开源项目&个人项目
 - 参与开源项目 Google V8,  libuv, MongoDB, Postgres 等。
-- 个人分布式图数据库POC：https://github.com/yjhjstz/postgres-xl-docker
+- 个人分布式图数据库POC，基于 Postgres-XL 实现多模态数据存储查询，包括以下：
+     - 补齐分布式图数据库的功能，实现*OpenCypher* 语法支持，多跳邻居查询，最短路径；
+     - 关系，地理位置和向量，图关系融合查询 https://github.com/yjhjstz/postgres-xl-docker
 
 ---
 
