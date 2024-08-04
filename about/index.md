@@ -35,6 +35,7 @@ comments: resume
 - OLAP 数据库, 基于 GPDB6x 开发存储和计算分离的MPP数据库 
     - 开源数据库(https://github.com/cloudberrydb/cloudberrydb), 实现基于Postgres14.4的内核升级，并行计算，增量物化视图特性, 异步物化视图等。
     - 云版本设计实现存算分离，稀疏索引等特性。
+    - 云版本的向量化初始版本设计开发.
 
 ### 滴滴出行 (2018/3 ~ 2022/4)
 ---
