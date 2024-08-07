@@ -20,7 +20,7 @@ comments: resume
 
 ### 个人信息
  - 本科/南京邮电大学, MCS@IIT 在读
- - 工作年限：12年
+ - 工作年限：13年
  - 邮箱：yjhjstz@163.com
  - Github: https://github.com/yjhjstz 
  - 期望职位：系统架构师，高级技术专家
@@ -60,7 +60,7 @@ comments: resume
 #### MongoDB 云服务
 - 就职于阿里云-飞天八部-阿里云数据库团队
 - MongoDB 内核核心开发, 涉及运维,多存储引擎（Wiredtiger, Rocksdb, Terarkdb）,多机房容灾, 副本集到Sharding版本演进等；
-- 性能优化，QPS 提升67%，Latency下降90%，解决官方版本在连接数上的资源消耗问题;
+- [性能优化](http://mysql.taobao.org/monthly/2017/01/04/)，QPS 提升67%，Latency下降90%，解决官方版本在连接数上的资源消耗问题;
 - 引入git和持续集成系统, 完成自动化构建测试，提升团队效率。
 
 ---
