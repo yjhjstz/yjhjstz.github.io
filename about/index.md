@@ -141,7 +141,7 @@ comments: resume
 
 - 开发语言：C/C++/Node.js/Java/Shell/Python
 - 调试调优：gdb/oprofile/perf/hopper
-- 数据库相关：MongoDB/Postgresql
+- 数据库相关：Postgres/Greenplum/MongoDB
 - 版本管理、持续集成：svn/git/jenkins/
 - 开发平台：Linux/Mac/Arm
 
