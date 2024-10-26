@@ -20,7 +20,7 @@ comments: resume
 
 ### 个人信息
  - 本科/南京邮电大学, MCS@IIT 在读
- - 工作年限：13年
+ - 工作年限：14年
  - 邮箱：yjhjstz@163.com
  - Github: https://github.com/yjhjstz 
  - 期望职位：系统架构师，高级技术专家
@@ -33,9 +33,9 @@ comments: resume
 ## 工作经历
 ### 北京酷克数据 (2022/4 ~)
 - OLAP 数据库, 基于 Greenplum 开发存储和计算分离的MPP数据库 
-    - 开源数据库(https://github.com/cloudberrydb/cloudberrydb), 实现基于Postgres14.4的内核升级，并行计算，增量物化视图特性, 异步物化视图等。
-    - 云版本设计实现存算分离，稀疏索引等特性。
-    - 云版本的向量化初始版本设计开发.
+    - 开源数据库(https://github.com/cloudberrydb/cloudberrydb), Apache PPMC 成员. 
+    - 基于Postgres14.4的内核升级，实现并行计算，增量物化视图特性, 异步物化视图等。
+    - 云版本设计实现存算分离，稀疏索引, 向量化等特性。
 
 ### 滴滴出行 (2018/3 ~ 2022/4)
 ---
