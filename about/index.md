@@ -32,10 +32,11 @@ comments: resume
 
 ## 工作经历
 ### 北京酷克数据 (2022/4 ~)
-- OLAP 数据库, 基于 Greenplum 开发存储和计算分离的MPP数据库 
-    - 开源数据库(https://github.com/apache/cloudberry), Apache PPMC 成员. 
-    - 基于Postgres14.4的内核升级，实现并行计算，增量物化视图特性, 异步物化视图等。
-    - 云版本设计实现存算分离，稀疏索引, 向量化等特性。
+  - 开源数据库(https://github.com/apache/cloudberry), Apache PPMC 成员.
+  - 2022 加入之初启动了 Cloudberry 数据库项目,  目标是先进的Massively Parallel Processing 数据库, 后开源进入Apache 社区.
+    - 阶段1: 升级 gpdb 6.x内核到Postgresql 14.4;
+    - 阶段2: 提升性能, 包括并行特性, Runtime filter, 增量物化视图, 异步物化视图;
+    - 阶段3: 插件化实现存算分离的Cloud 版本: 包括稀疏索引,向量化等特性.
 
 ### 滴滴出行 (2018/3 ~ 2022/4)
 ---
