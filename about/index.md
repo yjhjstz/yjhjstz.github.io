@@ -12,7 +12,7 @@ comments: resume
 
 > Linux 后端工程师，MongoDB,  Postgres , 机器学习
 
-> 技术Geeker
+> Apache PMC 成员
 
 
 ---
