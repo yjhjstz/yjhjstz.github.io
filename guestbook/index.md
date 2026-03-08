@@ -1,8 +1,12 @@
 ---
 layout: page
-title: 留言
-comments: yes
-thread: 616
+title: 联系
 ---
 
-来了，就留下你的足迹吧。
+## 联系方式
+
+欢迎通过以下方式联系我：
+
+- **Email**: [yjhjstz@gmail.com](mailto:yjhjstz@gmail.com)
+- **GitHub**: [@yjhjstz](https://github.com/yjhjstz)
+- **Weibo**: [@yangjianghua](https://weibo.com/yangjianghua)

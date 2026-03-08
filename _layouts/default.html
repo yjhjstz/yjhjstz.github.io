@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/media/css/style.css" />
-    <link rel="stylesheet" href="/media/css/highlight.css" />
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <nav>
-        <span><a title="网站首页" class="" href="/">首页</a></span>
-        <span><a title="文章分类" class="" href="/categories/">分类</a></span>
-        <span><a title="标签索引" class="" href="/tags/">标签</a></span>
-        <!--<span><a title="友情链接" class="" href="/links/">链接</a></span>-->
-        <span><a title="留言交流" class="" href="/guestbook/">留言</a></span>
-        <span><a title="GitHub 贡献" class="" href="/github/">GitHub</a></span>
-        <span><a title="关于站长" class="" href="/about/">关于</a></span>
-</nav>
-        <article class="content">
-        {{ content }}
-        </article>
-      </div>
-
-    <footer>
-        <p>
-          {% include googleanalytics.md %}
-        </p>
-        <p><small>
-            <a href="http://github.com/{{ site.github }}/yjhjstz.github.io/new/gh-pages/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.github }}/yjhjstz.github.io/edit/gh-pages/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/yjhjstz.github.io" target="_blank" title="项目主页">GitHub</a>
-             | <a rel="license"
-                 href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2016 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
-             | <a href="http://weibo.com/yangjianghua" target="_blank">@yangjianghua</a>
-{% if site.beian %}
-             | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
-{% endif %}
-{% if site.cnzz %}
-             | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}"></script>
-{% endif %}
-         </small></p>
-    </footer>
-
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="{{ site.author }}" />
+  {% if page.description %}<meta name="description" content="{{ page.description }}" />
+  {% elsif site.description %}<meta name="description" content="{{ site.description }}" />
+  {% endif %}
+  <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/media/css/style.css" />
+  <link rel="stylesheet" href="/media/css/highlight.css" />
+  <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="/atom.xml" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="/">{{ site.name }}</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('site-nav').classList.toggle('open')">&#9776;</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="/">首页</a>
+        <a href="/categories/">分类</a>
+        <a href="/tags/">标签</a>
+        <a href="/github/">GitHub</a>
+        <a href="/about/">关于</a>
+        <a href="/guestbook/">留言</a>
+      </nav>
     </div>
-  </body>
+  </header>
+
+  <main class="site-container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &middot;
+        <a href="https://github.com/{{ site.github }}/yjhjstz.github.io" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank">CC BY-SA 3.0</a>
+        &copy; 2016&ndash;{{ site.time | date: "%Y" }}
+        <a href="/about/">{{ site.author }}</a>
+        &middot;
+        <a href="https://weibo.com/yangjianghua" target="_blank" rel="noopener">@yangjianghua</a>
+      </p>
+    </div>
+  </footer>
+
+  {% include googleanalytics.md %}
+</body>
 </html>

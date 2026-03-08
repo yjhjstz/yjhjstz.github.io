@@ -2,17 +2,17 @@ future: true
 permalink: /:title/
 url: http://yjhjstz.github.io
 name: yjhjstz
+description: "Database Engineer | Open Source Contributor | Apache PPMC"
 author: yjhjstz
-qq: 
+twitter_username: yangjianghua
 email: yjhjstz@gmail.com
-duoshuo: 
-beian: 
-cnzz: 
 weibo: yangjianghua
 github: yjhjstz
-pygments: true
 paginate: 20
 truncate: true
 about: "Jianghua Yang"
 markdown: kramdown
 highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
