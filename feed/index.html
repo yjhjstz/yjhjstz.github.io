@@ -18,7 +18,7 @@
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <author>{{ site.author }}</author>
       <guid>{{ site.url }}{{ post.id }}</guid>
-      <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+      <content:encoded>{{ post.content | xml_escape }}</content:encoded>
     </item>
     {% endfor %}
   </channel>
