@@ -153,31 +153,29 @@ layout: page
 
 <div class="pf-grid">
 
-<!-- QuantWise (ccode) -->
+<!-- pgorca -->
 <div class="pf-card">
   <div class="pf-card-head">
-    <div class="pf-card-icon">⚡</div>
-    <span class="pf-card-title"><a href="https://github.com/quantumiodb/quantwise">QuantWise</a></span>
+    <div class="pf-card-icon">🦅</div>
+    <span class="pf-card-title"><a href="https://github.com/quantumiodb/pgorca">pgorca</a></span>
   </div>
   <div class="pf-card-desc">
-    Agentic Coding & Trading 终端智能工具 — 基于 Claude 构建，集编码助手与交易分析于一体。支持代码理解/生成/调试、Git 操作、交互式数据库调试，内置 30+ 交易分析 Skills（股票分析、CANSLIM 选股、VCP 形态筛选、期权策略、机构资金流向追踪等），并提供 Bash、浏览器控制、PostgreSQL 交互等内置工具。
+    PostgreSQL 上的 Orca 查询优化器集成 — 将 Greenplum/Cloudberry 生态中的 Orca（基于 Cascades 框架的现代化查询优化器）移植适配到原生 PostgreSQL，提供更强的复杂查询优化能力，针对多表 Join、子查询、聚合下推等复杂场景显著提升 OLAP 查询性能。
   </div>
   <div class="pf-card-tags">
-    <span class="pf-tag--lang pf-tag">Python</span>
-    <span class="pf-tag--lang pf-tag">Swift</span>
-    <span class="pf-tag--lang pf-tag">JavaScript</span>
-    <span class="pf-tag">Agentic AI</span>
-    <span class="pf-tag">Claude Code</span>
-    <span class="pf-tag">FinTech</span>
-    <span class="pf-tag">Skills</span>
-    <span class="pf-tag">CLI</span>
+    <span class="pf-tag--lang pf-tag">C++</span>
+    <span class="pf-tag--lang pf-tag">C</span>
+    <span class="pf-tag">Query Optimizer</span>
+    <span class="pf-tag">Cascades</span>
+    <span class="pf-tag">Orca</span>
+    <span class="pf-tag">OLAP</span>
   </div>
   <div class="pf-card-footer">
-    <a href="https://github.com/quantumiodb/quantwise">
+    <a href="https://github.com/quantumiodb/pgorca">
       <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
       查看源码
     </a>
-    <a href="https://quantumio.com.cn/">
+    <a href="https://agentml.ai/">
       🌐 官网
     </a>
   </div>
