@@ -10,9 +10,9 @@ comments: resume
 
 {{ site.about }}
 
-> Linux 后端工程师，MongoDB,  Postgres , 机器学习
+> Linux 后端工程师，MongoDB / Postgres 内核，机器学习基础设施
 
-> Apache PPMC 成员
+> Apache PPMC 成员 · AI Infra / RAG 检索引擎方向
 
 ---
 
@@ -21,8 +21,21 @@ comments: resume
 - 工作年限：14年
 - 邮箱：yjhjstz@163.com
 - Github: https://github.com/yjhjstz
-- 期望职位：系统架构师，高级技术专家
+- 期望职位：系统架构师 / 高级技术专家 / AI Infra 方向
 - 期望城市：杭州
+
+---
+
+## AI / RAG 技术能力
+
+长期围绕 **RAG（Retrieval Augmented Generation）** 检索底座建设，覆盖从向量索引内核到落地业务的全链路，是当下大模型应用最稀缺的"数据库 + 机器学习"复合背景工程师。
+
+- **向量检索内核**：基于 Postgres 自研亿级分布式相似检索引擎，落地 **HNSW / IVF** 高维空间索引，支持 L2 / 内积 / 余弦等多种距离度量
+- **混合查询（Hybrid Search）**：关系查询 + 向量检索的融合查询，对应 RAG 中"结构化过滤 + 语义召回"的核心诉求
+- **Embedding 落地经验**：支撑过人脸比对、智能客服、NLP 语义匹配、商品推荐等业务的向量化召回链路
+- **深度学习 / NLP 推理基础设施**：主导弹性推理服务（DDL-Serving），支撑 NLP、CV 类模型部署，300+ 业务方、近千台 GPU，机器使用数为开源 tensorflow-serving 的 1/2 —— GPU 调度与高可用部署经验可迁移到 LLM 推理场景
+
+> 一句话：从 Embedding 存储、ANN 召回、混合检索到 NLP 推理服务，覆盖 RAG 检索增强链路的每一层。
 
 ---
 
@@ -38,14 +51,14 @@ comments: resume
 ### 滴滴出行 (2018/3 ~ 2022/4)
 
 #### 滴滴出行-基础平台-机器学习云平台
-- 负责 OLAP 数据库
-  - 基于 Postgres 自研，提供亿级海量分布式相似检索服务方案
-    - 支持高维度空间索引（HNSW，IVF），融合关系查询；
-    - 支持内部人脸比对，安防项目，智能客服，智慧交通，NLP 比对，商品推荐落地。
+- 负责 OLAP / 向量检索数据库（**RAG 检索底座**）
+  - 基于 Postgres 自研，提供亿级海量分布式相似检索服务方案，等价于今天的 Vector Database
+    - 支持高维度空间索引（**HNSW / IVF**），融合关系查询，对应 RAG 中的"过滤 + 语义召回"
+    - 业务落地：人脸比对、安防、**智能客服**、智慧交通、**NLP 语义匹配**、商品推荐等向量化召回场景
   - 实现 PostgreSQL 副本集和分片集群容器化部署
     - 基于开源 patroni 与 kubernetes 集成，实现高可用的 HA 架构部署；
     - 基于开源 citus 开发实现企业版特性：包括扩容重新平衡分片，查看统计信息。
-- 负责异构平台深度学习弹性推理的架构和开发实现，管理团队4人，在滴滴云上输出。
+- 负责异构平台深度学习弹性推理的架构和开发实现，管理团队4人，在滴滴云上输出（**NLP / CV 推理基础设施**）。
   - 2018.3 月初开始打造鲁班高性能弹性推理服务(DDL-Serving)，填补市面上多种深度学习模型部署的空白，提供了高可用、低延时的解决方案。目前支撑了300多个业务方，近千台 GPU 机器。机器使用数上是使用开源 tensorflow-serving 的 1/2，节省了一半以上的成本并提高了稳定性。支撑2018年公司 All in 安全的多个深度学习模型使用上线。以上 DDL-Serving 在2018年度申请专利2篇，受理2篇。
 
 ---
@@ -92,9 +105,6 @@ comments: resume
 
 ### 开源项目&个人项目
 - 参与开源项目 MongoDB, Postgres 等。
-- 个人分布式图数据库 POC，基于 Postgres-XL 实现多模态数据存储查询，包括以下：
-  - 补齐分布式图数据库的功能，实现 *OpenCypher* 语法支持，多跳邻居查询，最短路径；
-  - 关系，地理位置和向量，图关系融合查询 https://github.com/yjhjstz/postgres-xl-docker
 
 ---
 
@@ -115,10 +125,11 @@ comments: resume
 ---
 
 ### 技能清单
-以下均为我经常使用的技能，排在前面表示更熟悉，主要技术领域在存储，虚拟机，Nosql。
+以下均为我经常使用的技能，排在前面表示更熟悉，主要技术领域在 **数据库内核 / 向量检索 / AI Infra / NoSQL**。
 
-- 开发语言：C/C++/Node.js/Java/Shell/Python
+- 开发工具：C/C++/Claude/Codex
 - 调试调优：gdb/oprofile/perf/hopper
-- 数据库相关：Postgres/Greenplum/MongoDB
+- 数据库内核：Postgres / Greenplum / MongoDB
+- **AI / RAG**：向量索引（HNSW / IVF）、Embedding 召回、Hybrid Search、NLP 推理服务
 - 版本管理、持续集成：svn/git/jenkins/
 - 开发平台：Linux/Mac/Arm
