@@ -17,7 +17,7 @@ comments: resume
 ---
 
 ### 个人信息
-- 本科/南京邮电大学, MCS@IIT 在读
+- 本科/南京邮电大学, MCS@IIT
 - 工作年限：14年
 - 邮箱：yjhjstz@163.com
 - Github: https://github.com/yjhjstz
